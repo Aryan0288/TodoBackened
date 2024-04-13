@@ -7,5 +7,4 @@ const todoSchema=new mongoose.Schema({
   }
 });
 
-const todo=mongoose.model("todo",todoSchema);
-module.export=todo;
+module.exports=mongoose.model("todo",todoSchema);
