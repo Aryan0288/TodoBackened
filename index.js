@@ -9,9 +9,11 @@ app.use(express.json());
 
 app.use(
   cors({
+    // origin:
+    //   "https://f9e208b4-15ef-44d1-b8bb-69dfa307320c-00-2aizsyzbzjp8j.sisko.replit.dev",
     origin:
-      "https://f9e208b4-15ef-44d1-b8bb-69dfa307320c-00-2aizsyzbzjp8j.sisko.replit.dev",
-    credentials: true,
+      "https://todo-app-xi-puce.vercel.app",
+      credentials: true,
   }),
 );
 
